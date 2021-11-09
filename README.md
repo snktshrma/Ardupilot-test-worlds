@@ -7,10 +7,7 @@
 
         ../Tools/autotest/sim_vehicle.py -f gazebo-iris
 ## T3:
-
         roslaunch apm.launch
-
-
 
 # Running multiplot:
 > Used plugin: RQT Multiplot
