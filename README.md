@@ -1,8 +1,14 @@
 # Ardupilot-test-worlds
 
-## T1: roslaunch imp_wrlds step.launch or roslaunch imp_wrlds sloppy.launch
-## T2: ../Tools/autotest/sim_vehicle.py -f gazebo-iris
-## T3: roslaunch apm.launch
+## T1:
+
+        roslaunch imp_wrlds step.launch or roslaunch imp_wrlds sloppy.launch
+## T2:
+
+        ../Tools/autotest/sim_vehicle.py -f gazebo-iris
+## T3:
+
+        roslaunch apm.launch
 
 
 
