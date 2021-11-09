@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<sdf version='1.5'>
+  <model name='sine'>
+    <pose>0 0 0 1.507 0 0</pose>
+    <static>True</static>
+    <link name='base'>
+    	<collision name="collision">
+        <geometry>
+            <mesh><uri>model://sine/meshes/sine.obj</uri>
+            </mesh>
+          </geometry>
+      </collision>
+        <visual name="visual">
+          <geometry>
+            <mesh><uri>model://sine/meshes/sine.obj</uri>
+            </mesh>
+          </geometry>
+	<material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grass</name>
+            </script>
+          </material>
+        </visual>
+   </link>
+ </model>
+</sdf>
